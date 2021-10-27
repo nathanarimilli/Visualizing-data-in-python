@@ -27,11 +27,11 @@ indpopy.reverse()
 import numpy
 plt.plot(x,chipopy, label ='China')
 plt.plot(x,indpopy, label ='India')
-plt.title('China vs India Population')    #to add a title
-plt.xlabel('Year') #x axis label
-plt.xticks(rotation=25) #to rotate the bar labxwels
-plt.xticks(numpy.arange(0, len(x)+1, 5)) #to change the frequency of the bar labels
-plt.ylabel('Population') #y axis label
-plt.legend() #this is to add a legend (labels are assigned when data was plotted)
+plt.title('China vs India Population')    
+plt.xlabel('Year') 
+plt.xticks(rotation=25) 
+plt.xticks(numpy.arange(0, len(x)+1, 5)) 
+plt.ylabel('Population') 
+plt.legend() 
 plt.show()
 
